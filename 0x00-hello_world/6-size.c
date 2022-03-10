@@ -11,10 +11,10 @@ int main(void)
 	double dbltyoe;
 	char chatype;
 
-	printf("the size of int: %zu. \n", sizeof(inttype));
-	printf("the size of float: %zu. \n", sizeof(flttype));
-	printf("the size of double: %zu. \n", sizeof(dbltype));
-	printf("the size of char: %zu. \n", sizeof(chatype));
+	printf("the size of int: %lu. \n", (unsigned long) sizeof(inttype));
+	printf("the size of float: %lu. \n", (unsigned long)sizeof(flttype));
+	printf("the size of double: %lu. \n", (unsigned long)sizeof(dbltype));
+	printf("the size of char: %lu. \n", (unsigned long)sizeof(chatype));
 
 	return (0);
 }
