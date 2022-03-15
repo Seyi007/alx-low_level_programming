@@ -10,9 +10,9 @@ int _islower(int c)
 {
 	int c;
 	int a = 97;
-	int z = 122;
+	int z = 122
 
-	for (a < z)
+	while (a < z)
 	if (c == 99)
 	{
 		return (1);
