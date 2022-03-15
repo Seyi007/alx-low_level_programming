@@ -13,6 +13,10 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
+	else if (C >= 'A' && C <= 'Z')
+	{
+		return (1);
+	}
 	else
 	{
 		return (0);
