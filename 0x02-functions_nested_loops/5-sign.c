@@ -11,7 +11,6 @@
 int print_sign(int n)
 {
 	int i = '+';
-	int x = 0;
 	int y = '-';
 
 	if (n > 0)
@@ -21,7 +20,7 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		_putchar(x);
+		_putchar(0);
 		return (0);
 	}
 	else
