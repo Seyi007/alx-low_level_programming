@@ -1,5 +1,5 @@
 carrie@ubuntu:/debugging$ cat 1-main.c
-#include <stdio.h>
+#include "main.h"
 
 /**
 * main - causes an infinite loop
