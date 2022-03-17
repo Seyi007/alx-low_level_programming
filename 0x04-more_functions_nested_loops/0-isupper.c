@@ -4,10 +4,10 @@
  *@c: variable c
  *
  *Return: one if c is uppercase, zero if otherwise
-*/
+ */
+
 int _isupper(int c)
 {
-	int c;
 
 	if (c >= 'A' && c <= 'Z')
 	{
