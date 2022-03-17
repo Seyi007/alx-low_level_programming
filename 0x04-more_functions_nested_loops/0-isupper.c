@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  *_isupper - checks uppercase character
  *@c: variable c
@@ -10,13 +9,12 @@ int _isupper(int c)
 {
 	int c;
 
-	for (c > 'A' && c < 'Z')
-		if (c == 'C')
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+	if (c == 'C')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
