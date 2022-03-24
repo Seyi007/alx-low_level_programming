@@ -4,14 +4,14 @@
  *@s1: variable
  *@s2: variable
  *
- *Return: 0 always
+ *Return: 0 if s1 is less or equal to s2
  */
 
 int _strcmp(char *s1, char *s2)
 {
 	while (*s1 == *s2)
 	{
-		if (*s1 != '\0')
+		if (*s1 == '\0')
 		{
 			return (0);
 		}
