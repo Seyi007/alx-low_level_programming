@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *This program prints the name of the c file.
+ *main - This program prints the name of the c file.
  *@argc: the argument count
- *@argv[]: the pointer to the array of strings
+ *@argv: the pointer to the array of strings
  *Return: 0 always
  */
 
