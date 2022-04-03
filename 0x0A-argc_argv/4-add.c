@@ -3,11 +3,11 @@
 /**
  *main - adds positive numbers followed by a new line
  *@argc: argument count variable
- *@agrv: argument array pointer
+ *@argv: argument array pointer
  *Return: 0 always
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i, j, sum = 0;
 
