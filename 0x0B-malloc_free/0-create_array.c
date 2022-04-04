@@ -23,10 +23,9 @@ char *create_array(unsigned int size, char c)
 		*(ptr + i) = c;
 	}
 	if (ptr == NULL)
-		return (NULL);
-	*(ptr + i) = '\0';
-
-	return (ptr);
+		return (0);
+	else
+		return (ptr);
 }
 
 
