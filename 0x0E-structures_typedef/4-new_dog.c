@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
  *new_dog - create new dog and store copy of name and owner
  *@name: dog name
