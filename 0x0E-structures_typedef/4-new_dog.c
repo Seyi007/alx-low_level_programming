@@ -50,12 +50,12 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- *new_dog - create new dog and store copy of name and owner
- *@name: dog name
- *@age: dog age
- *@owner: dog owner
+ * new_dog - create new dog and store copy of name and owner
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
  *
- *Destination: destination of dog
+ * Return: destination of dog
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
