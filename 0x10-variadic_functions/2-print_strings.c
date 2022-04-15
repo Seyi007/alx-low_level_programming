@@ -37,14 +37,3 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_end(args);
 	printf("\n");
 }
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_strings(", ", 2, "Jay", "Django");
-    return (0);
-}
