@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  *print_numbers - prints numbers separated by a string
+ *...: parameter to be inserted
  *@separator: pointer variable to string
  *@n: the number of parameers to be passes
  *
@@ -12,18 +13,22 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
+	char *p;
 	va_list args;
+
+	if (separator == NULL || *separator == 0)
+		p = "";
+	else
+		p = (char *) separator;
 
 	va_start(args, n);
 
-	for (i = 0; i < n; i++)
-	{
-		if (separator == NULL)
-		{
-			return;
-		}
+	if (n > 0)
 		printf("%d", va_arg(args, int));
-		printf("%s", separator);
+
+	for (i = 1; i < n; i++)
+	{
+		printf("%s%d", p, va_arg(args, int));
 	}
 	va_end(args);
 	printf("\n");
