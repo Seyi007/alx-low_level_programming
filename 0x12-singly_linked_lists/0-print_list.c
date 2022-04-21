@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  *print_list - prints all the elements in list_t to stdout
  *@h: pointer variable
