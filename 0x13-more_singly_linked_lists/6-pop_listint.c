@@ -4,7 +4,7 @@
 #include "lists.h"
 /**
  *pop_listint - removes the head node in the linked list
- *@h: pointer to the pointer of the first node
+ *@head: pointer to the pointer of the first node
  *
  *Return: 0 if list is empty
  */
@@ -22,6 +22,6 @@ int pop_listint(listint_t **head)
 	free(*head);
 	*head = new;
 
-	return(data);
+	return (data);
 
 }
