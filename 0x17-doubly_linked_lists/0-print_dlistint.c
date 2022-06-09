@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *dlistint_len - counts the number of elements in a double linked list
+ *print_dlistint - counts the number of elements in a double linked list
  *@h: head pointer
  *
  *Return: the number pf elements
